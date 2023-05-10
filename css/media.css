@@ -1,0 +1,342 @@
+:root{
+    --primary-color : #fbda67;
+    --secondary-color : #ff8d5b;
+    --tertiary-color : #8773ee;
+    --fourth-color : #2a200d;
+}
+
+@media (max-width:1286px){
+    .secondary-heading{
+        font-size: 3.2rem;
+    }
+}
+
+@media(max-width:1188px){
+    .design-circle-1{
+        width: 30rem;
+        height: 30rem;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .image-self{
+        transform: scale(0.8);
+    }
+    .design-circle-2,.design-circle-3{
+        width: 15rem;
+        height: 15rem;
+    }
+    .tech{
+        font-size: 1.6rem;
+    }
+    .work-area-section{
+        padding: 4.8rem;
+    }
+    .work-design-circle{
+        width: 130vh;
+    }
+    .projects-section{
+        padding: 4.8rem;
+    }
+}
+
+@media(max-width:1084px){
+    .tech-stack-label{
+        font-size: 2rem;
+    }
+    .tech-stack-value{
+        font-size: 1.2rem;
+    }
+    .work-area-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .work-design-circle{
+        opacity: 0;
+    }
+    .icon--update{
+        color: #fff;
+    }
+}
+
+
+@media(max-width:1001px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        gap: 14.4rem;
+    }
+    .content-side{
+        padding: 4.8rem;
+    }
+    .secondary-heading{
+        font-size: 4.8rem;
+    }
+    .li{
+        font-size: 1.4rem;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:873px){
+    .tech-stack-value{
+        font-size: 1rem;
+    }
+    .work-area-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .part-5{
+        grid-column: 1/3;
+    }
+    .spec-fea-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width:775px){
+    .header{
+        padding: 4.8rem;
+    }
+    .link-upfront{
+        display: none;
+    }
+    .design-circle-4{
+        width: 25rem;
+        height: 25rem;
+    }
+    .icon-menu,.icon-close{
+        display: block;
+        font-size: 2.4rem;
+        color: var(--tertiary-color);
+    }
+    .icon-close{
+        display: none;
+        
+    }
+    .icon-menu,.icon-close{
+        opacity: 1;
+        z-index: 1;
+    }
+}
+
+@media (max-width:679px){
+    .secondary-heading{
+        font-size: 3.2rem;
+    }
+    .des{
+        font-size: 1.8rem;
+    }
+    .sub-des{
+        font-size: 1.4rem;
+    }
+    .header-links-link{
+        padding: 0.8rem 1rem;
+        font-size: 1.2rem;
+    }
+    .header{
+        gap: 6.4rem;
+    }
+    .tech-stack-value{
+        text-align: center;
+        line-height: 2;
+    }
+    .card-container{
+        gap: 4.8rem;
+    }
+    .footer-header{
+        font-size: 3.2rem;
+    }
+    .email{
+        font-size: 1.4rem;
+    }
+    .footer-social-link{
+        font-size: 2.4rem;
+    }
+}
+
+
+@media(max-width:600px){
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .tertiary-heading{
+        font-size: 2rem;
+    }
+    .fourth-heading{
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:522px){
+    .design-circle-1{
+        width: 25rem;
+        height: 25rem;
+    }
+    .image-self{
+        transform: scale(0.7);
+    }
+    .design-circle-4{
+        width: 20rem;
+        height: 20rem;
+    }
+    .tertiary-heading{
+        font-size: 1.6rem;
+    }
+    .fourth-heading{
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width:485px){
+    .work-area-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .part-5{
+        grid-column: 1/2;
+    }
+    .my-speciality-section{
+        padding: 4.8rem;
+    }
+    .foot-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .secondary-heading{
+        font-size: 2.4rem;
+    }
+    .des{
+        font-size: 1.6rem;
+    }
+    .sub-des{
+        font-size: 1.4rem;
+    }
+    .header{
+        padding: 2.4rem;
+    }
+    .design-circle-2{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media(max-width:465px){
+    .design-circle-1{
+        width: 20rem;
+        height: 20rem;
+    }
+    .image-self{
+        transform: scale(0.6);
+    }
+    .design-circle-2{
+        top: 10%;
+    }
+    .design-circle-3{
+        bottom: 10%;
+        top: 90%;
+    }
+}
+
+@media(max-width:426px){
+    /* .design-circle-1{
+      display: none;
+    }
+    .image-self{
+        display: none;
+    }
+    .design-circle-3,.design-circle-2{
+        display: none;
+    } */
+    .image-side{
+        transform: scale(0.9);
+    }
+    .work-design-circle{
+        display: none;
+    }
+}
+
+@media (max-width:376px){
+    .secondary-heading{
+        font-size: 2.2rem;
+        text-align: center;
+
+    }
+    .des{
+        font-size: 1.4rem;
+        line-height: 1.5;
+        text-align: center;
+
+    }
+    .content-side{
+        padding: 0;
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+
+    }
+    .sub-des{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .btns{
+        align-items: center;
+        justify-content: center;
+    }
+    .design-circle-3,.design-circle-2{
+        width: 15rem;
+        height: 15rem;
+    }
+    .li{
+        font-size: 1.2rem;
+    }
+    .footer{
+        padding: 4.8rem;
+    }
+}
+
+@media(max-width:321px){
+    .design-circle-1{
+        width: 20rem;
+        height: 20rem;
+        outline: 2rem solid var(--primary-color);
+    }
+    .design-circle-3,.design-circle-2{
+        width: 10rem;
+        height: 10rem;
+    }
+    .tech{
+        font-size: 1.2rem;
+    }
+    .design-circle-2{
+        left: 20%;
+        top: 15%;
+    }
+    .design-circle-3{
+        bottom: 20%;
+        top: 80%;
+        right: 10%;
+        left: 90%;
+    }
+    .header{
+        gap: 0;
+    }
+    .content-side{
+        padding: 0;
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+
+    }
+    .design-circle-4{
+        width: 15rem;
+        height: 15rem;
+    }
+    .projects-section{
+        gap: 4.8rem;
+    }
+}
